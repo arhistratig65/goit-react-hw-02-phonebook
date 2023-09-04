@@ -4,7 +4,7 @@ import css from './Filter.module.css';
 const Filter = ({ filter, onFilterChange }) => {
   return (
     <div className={css.label}>
-      <p className={css['field-name']}>Find abonent by Name</p>
+      <p className={css['field-name']}>Find abonent by name</p>
       <input
         type="text"
         name="filter"

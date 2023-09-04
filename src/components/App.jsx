@@ -61,7 +61,7 @@ export class App extends Component {
     const filteredContacts = this.handleFilterAbonent();
     return (
       <div className={css.container}>
-        <h1>Phone book</h1>
+        <h1>Phonebook</h1>
         <ContactForm onAddContact={this.handleAddContact} />
         <h2>Contacts</h2>
         <Filter filter={filter} onFilterChange={this.handleFilterChange} />
